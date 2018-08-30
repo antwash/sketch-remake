@@ -1,0 +1,7 @@
+.DS_Store
+xcuserdata
+xcshareddata
+xccheckout
+xcuserstate
+GoogleService-Info.plist
+Podfile.lock
