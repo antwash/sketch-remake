@@ -20,6 +20,7 @@
 		037DFE4E2135DBF6004C42BC /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 037DFE3F2135DBF6004C42BC /* SF-Pro-Display-Bold.otf */; };
 		037DFE502135DBF6004C42BC /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 037DFE412135DBF6004C42BC /* SF-Pro-Display-Medium.otf */; };
 		037DFE57213781BA004C42BC /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037DFE56213781BA004C42BC /* InputView.swift */; };
+		03FEE83D213AF71300C0A480 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FEE83C213AF71300C0A480 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		037DFE3F2135DBF6004C42BC /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		037DFE412135DBF6004C42BC /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		037DFE56213781BA004C42BC /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		03FEE83C213AF71300C0A480 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +72,11 @@
 		037DFE1C2135D6E2004C42BC /* movie-app */ = {
 			isa = PBXGroup;
 			children = (
+				03FEE83E213B09DA00C0A480 /* Login */,
 				037DFE362135DBCC004C42BC /* Fonts */,
 				037DFE5521378189004C42BC /* Views */,
 				037DFE312135D7EA004C42BC /* Utils */,
 				037DFE1D2135D6E2004C42BC /* AppDelegate.swift */,
-				037DFE2F2135D7A4004C42BC /* RegisterController.swift */,
 				037DFE242135D6E3004C42BC /* Assets.xcassets */,
 				037DFE262135D6E3004C42BC /* LaunchScreen.storyboard */,
 				037DFE292135D6E3004C42BC /* Info.plist */,
@@ -110,6 +112,15 @@
 				037DFE56213781BA004C42BC /* InputView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		03FEE83E213B09DA00C0A480 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				037DFE2F2135D7A4004C42BC /* RegisterController.swift */,
+				03FEE83C213AF71300C0A480 /* LoginController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				037DFE1E2135D6E2004C42BC /* AppDelegate.swift in Sources */,
+				03FEE83D213AF71300C0A480 /* LoginController.swift in Sources */,
 				037DFE302135D7A4004C42BC /* RegisterController.swift in Sources */,
 				037DFE57213781BA004C42BC /* InputView.swift in Sources */,
 				037DFE332135D7F5004C42BC /* Constants.swift in Sources */,

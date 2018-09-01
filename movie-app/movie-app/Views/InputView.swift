@@ -15,22 +15,22 @@ class InputView: UIView {
     
     let inputLabel: UILabel = {
         let input = UILabel()
-        input.textColor = MAIN_GREY_CLR
-        input.font = UIFont(name: LIGHT, size: 15) ??
-            UIFont.systemFont(ofSize: 15, weight: .light)
+            input.textColor = MAIN_GREY_CLR
+            input.font = UIFont(name: LIGHT, size: 15) ??
+                UIFont.systemFont(ofSize: 15, weight: .light)
         return input
     }()
     
     let inputBody: UITextField = {
         let input = UITextField()
-        input.font = UIFont(name: MEDIUM, size: 15) ??
-            UIFont.systemFont(ofSize: 15, weight: .medium)
+            input.font = UIFont(name: LIGHT, size: 15) ??
+                UIFont.systemFont(ofSize: 15, weight: .light)
         return input
     }()
     
     let divider : UIView = {
         let d = UIView()
-        d.backgroundColor = OFF_GREY_COLOR
+            d.backgroundColor = OFF_GREY_COLOR
         return d
     }()
     
@@ -38,9 +38,9 @@ class InputView: UIView {
         super.init(frame: frame)
         
         let stackView = UIStackView(arrangedSubviews: [inputLabel, inputBody])
-        stackView.axis = .vertical
-        stackView.spacing = 10
-        stackView.distribution = .fillEqually
+            stackView.axis = .vertical
+            stackView.spacing = 10
+            stackView.distribution = .fillEqually
         
         addSubview(stackView)
         addSubview(divider)
@@ -56,4 +56,3 @@ class InputView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 }
-
